@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		04C34EC120BCDD7F005B2578 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04C34EC020BCDD7F005B2578 /* main.cpp */; };
+		04C34EC920BCDD9C005B2578 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C34EC820BCDD9C005B2578 /* GLUT.framework */; };
+		04C34ECB20BCDDAF005B2578 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C34ECA20BCDDAF005B2578 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		04C34EBD20BCDD7F005B2578 /* OpenGL Project#3 (Lighting Effects) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OpenGL Project#3 (Lighting Effects)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C34EC020BCDD7F005B2578 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		04C34EC820BCDD9C005B2578 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		04C34ECA20BCDDAF005B2578 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C34ECB20BCDDAF005B2578 /* OpenGL.framework in Frameworks */,
+				04C34EC920BCDD9C005B2578 /* GLUT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +49,7 @@
 			children = (
 				04C34EBF20BCDD7F005B2578 /* OpenGL Project#3 (Lighting Effects) */,
 				04C34EBE20BCDD7F005B2578 /* Products */,
+				04C34EC720BCDD9C005B2578 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +67,15 @@
 				04C34EC020BCDD7F005B2578 /* main.cpp */,
 			);
 			path = "OpenGL Project#3 (Lighting Effects)";
+			sourceTree = "<group>";
+		};
+		04C34EC720BCDD9C005B2578 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04C34ECA20BCDDAF005B2578 /* OpenGL.framework */,
+				04C34EC820BCDD9C005B2578 /* GLUT.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
